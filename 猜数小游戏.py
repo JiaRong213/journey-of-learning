@@ -3,7 +3,7 @@ import random
 MAX_TRIES = 7
 
 def play_game():
-    anwser = random.randint(1, 101)
+    anwser = random.randint(1, 100)
     for i in range(1,MAX_TRIES+1):
         guess = int(input("请输入一个1到100之间的整数: "))
         if guess < anwser:
